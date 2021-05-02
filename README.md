@@ -5,7 +5,7 @@ This is essentially a kotlin port of some old DOS freeware code I found from Ben
 
 ## Build Instructions
 The hardest part of building anything is to make sure your development environment
-is able to build.  I recommend for beginners to just install InteliJ and open this 
+is able to build.  I recommend for beginners to just install IntelliJ and open this 
 project from there.
 
 If, however, you have everything needed to build already set up, you can simply call
@@ -13,7 +13,7 @@ If, however, you have everything needed to build already set up, you can simply 
 
 ## Running
 from the commandline, you simply
-`java -jar sfw.jar <sfw filenames to convert>`
+`java -jar sfw2jpg.jar <sfw filenames to convert>`
 
 The converted files will append ".jpg" to the end.  Therefore, abc.sfw will produce abc.sfw.jpg
 
@@ -22,15 +22,15 @@ The converted files will append ".jpg" to the end.  Therefore, abc.sfw will prod
     java -jar sfw.jar -h
 
 #### Test a file to see if it is valid
-    java -jar sfw.jar -t 29196_17.sfw
+    java -jar sfw2jpg.jar -t 29196_17.sfw
 
 #### Convert a file
-    java -jar sfw.jar 29196_17.sfw
+    java -jar sfw2jpg.jar 29196_17.sfw
     or
-    java -jar sfw.jar -c 29196_17.sfw
+    java -jar sfw2jpg.jar -c 29196_17.sfw
 
 #### Convert a batch of files
-    java -jar sfw.jar "*.sfw"
+    java -jar sfw2jpg.jar "*.sfw"
 
 ## Notes
 * Note that SFW files are flipped both horizontal and vertical.  This convertor doesn't auto-flip

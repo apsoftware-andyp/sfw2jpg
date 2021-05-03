@@ -19,7 +19,7 @@ The converted files will append ".jpg" to the end.  Therefore, abc.sfw will prod
 
 ### Examples
 #### Show help
-    java -jar sfw.jar -h
+    java -jar sfw2jpg.jar -h
 
 #### Test a file to see if it is valid
     java -jar sfw2jpg.jar -t 29196_17.sfw
